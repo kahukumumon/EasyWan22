@@ -4,13 +4,13 @@ chcp 65001 > NUL
 set "PROJECT_NAME=EasyWan22"
 set "PROJECT_SETUP_BAT=%~dp0%PROJECT_NAME%\Setup.bat"
 
-set PROJECT_URL=https://github.com/Zuntan03/%PROJECT_NAME%
+set PROJECT_URL=https://github.com/kahukumumon/%PROJECT_NAME%
 set PROJECT_BRANCH=main
 set "PROJECT_DIR=%~dp0."
 set "EASY_TOOLS_DIR=%~dp0EasyTools"
 
 set "EASY_GIT_DIR=%EASY_TOOLS_DIR%\Git"
-set EASY_TOOLS_URL=https://github.com/Zuntan03/EasyTools
+set EASY_TOOLS_URL=https://github.com/kahukumumon/EasyTools
 set EASY_TOOLS_BRANCH=main
 
 if not exist "C:\Windows\System32\where.exe" (
